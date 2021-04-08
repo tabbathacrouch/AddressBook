@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CityInput /> renders correctly 1`] = `
+<div
+  className="city"
+>
+  <input
+    className="field"
+    data-testid="city"
+    name="city"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="City"
+    type="text"
+  />
+</div>
+`;
+
+exports[`<NameInput /> renders correctly 1`] = `
+<div>
+  <input
+    className="field"
+    data-testid="name"
+    name="name"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="Name"
+    type="text"
+  />
+</div>
+`;
+
+exports[`<StateInput /> renders correctly 1`] = `
+<div
+  className="stateName"
+>
+  <input
+    className="field"
+    data-testid="stateName"
+    name="stateName"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="State"
+    type="text"
+  />
+</div>
+`;
+
+exports[`<StreetInput /> renders correctly 1`] = `
+<div>
+  <input
+    className="field"
+    data-testid="street"
+    name="street"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="Street"
+    type="text"
+  />
+</div>
+`;
+
+exports[`<ZipInput /> renders correctly 1`] = `
+<div
+  className="zip"
+>
+  <input
+    className="field"
+    data-testid="zip"
+    name="zip"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="Zip"
+    type="text"
+  />
+</div>
+`;

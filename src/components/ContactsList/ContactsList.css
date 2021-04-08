@@ -1,0 +1,35 @@
+.contact {
+    padding-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    min-width: 200px;
+    box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2);
+}
+
+.contact:hover {
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: scale(1.05);
+    transition: transform 0.25s ease-out;
+}
+
+.contacts-map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.5rem;
+    max-width: 30em;
+    text-align: left;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    padding: 0.25rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
